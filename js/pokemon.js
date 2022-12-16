@@ -12,8 +12,8 @@ function fetchPokemon(id) {
         section.innerHTML = `
         <div class="container px-4 px-lg-5 my-3">
             <div class="row gx-4 gx-lg-5 align-items-center">
-                <div class="col-md-4"><img class="card-img-top mb-5 mb-md-0" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${pokemon.id}.svg" alt="..." /></div>
-                <div class="col-md-8">
+                <div class="col-md-5"><img class="card-img-top mb-5 mb-md-0" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${pokemon.id}.svg" alt="..." /></div>
+                <div class="col-md-7">
                     <div class="mb-1">#${pokemon.id
                         .toString()
                         .padStart(3, '0')}</div>
